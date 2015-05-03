@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/standard_choice_title"
+        android:text="Select an Item"
+        android:textStyle="italic"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <RadioGroup
+        android:id="@+id/standard_radio_group"
+        android:layout_below="@+id/standard_choice_title"
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/four_times"
+            android:text="4 Launchs"
+            android:textSize="18sp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/five_times"
+            android:text="5 Launchs"
+            android:textSize="18sp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/ten_times"
+            android:text="10 Launchs"
+            android:textSize="18sp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/standard_btn_valide"
+        android:layout_below="@id/standard_radio_group"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="validate"
+        android:layout_marginTop="25dp"
+        android:layout_centerInParent="true"
+        android:enabled="false"/>
+
+</RelativeLayout>

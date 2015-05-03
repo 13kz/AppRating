@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin">
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:text="Indicate session duration (in SECONDS)"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+    <EditText
+        android:id="@+id/edt_number"
+        android:layout_below="@id/txt_title"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/btn_valide"
+        android:layout_below="@id/edt_number"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="validate"
+        android:layout_marginTop="15dp"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>
