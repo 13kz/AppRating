@@ -3,16 +3,16 @@ Offer the possibility to the user to rate the application after a session or a n
 
 ###Rating by SESSION
 
-Give the user the possibility to display a dialog after a session.
+Give to the user the possibility to display a dialog after a session.
 
-- Set the session duration in SECONDS
+- Set the session duration in SECONDS.
 - Set the [SessionListener] to have the callback onSessionDurationEnd (at the end of the session) and onSessionDurationReset
 
 ###Standard Rating
 
-Give the user the possibility to display a dialog after a number of app launch. 
+Give to the user the possibility to display a dialog after a number of app launch. 
 
-- Set the number max of launch
+- Set the number max of launch.
 - Set the [StandardRatingListener] to have the callback onStandardRatingMaxLaunchReach and onResetStandardRating
 
 ###DEMO
